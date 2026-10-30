@@ -1,0 +1,42 @@
+{
+  "name": "Marval",
+  "identifier": "com.mariohurtado.marval.source",
+  "subtitle": "Marval hub builds",
+  "iconURL": "https://raw.githubusercontent.com/mariohurtado1402/marval-releases/main/icon.png",
+  "apps": [
+    {
+      "name": "Marval",
+      "bundleIdentifier": "com.mariohurtado.controlfinanciero",
+      "developerName": "Mario Hurtado",
+      "subtitle": "Finanzas y salón",
+      "localizedDescription": "Marval hub: finanzas personales y el módulo Vanity para el salón.",
+      "iconURL": "https://raw.githubusercontent.com/mariohurtado1402/marval-releases/main/icon.png",
+      "tintColor": "#6B2BD9",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.46",
+          "buildVersion": "46",
+          "date": "2026-10-30T22:33:16Z",
+          "localizedDescription": "Build from commit 0aa7a33.",
+          "downloadURL": "https://raw.githubusercontent.com/mariohurtado1402/marval-releases/main/ipa/Marval-1.0.46.ipa",
+          "size": 9051411,
+          "sha256": "af99908981feb1c97c51de7ec86956cd0bac4b74c395eb1f166392e6d63de358",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Usa Face ID para desbloquear tus finanzas.",
+          "NSCameraUsageDescription": "Usa la cámara para tomar fotos de tus recetas y escanear guías de paquetes y documentos.",
+          "NSMicrophoneUsageDescription": "Usa el micrófono para dictarle prompts a Claude.",
+          "NSSpeechRecognitionUsageDescription": "Convierte tu voz en texto para escribirle a Claude, con el reconocimiento de Apple."
+        }
+      }
+    }
+  ],
+  "news": []
+}
